@@ -69,7 +69,7 @@ static NODEPTR_TYPE tree(int op, NODEPTR_TYPE l, NODEPTR_TYPE r) {
 	return p;
 }
 
-main(void) {
+int main(void) {
 	NODEPTR_TYPE p;
 
 	p = tree(MOVE,

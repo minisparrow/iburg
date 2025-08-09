@@ -91,7 +91,7 @@ static Tree tree(int op, Tree l, Tree r) {
 	return t;
 }
 
-main(void) {
+int main(void) {
 	Tree t;
 
 	if (getenv("Trace"))
